@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0; }
+.ul-nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    list-style: none;
+   
+    
+}
+.ul-nav li{ display: flex;}
+
+.ul-nav a
+{
+    position: relative;
+    color: #877160;
+    padding: 0px 15px 0px 15px;
+    margin: 10px;
+   text-decoration: none;
+   border: 2px solid #B0C7D8;
+}
+ 
+.ul-nav a ::after,
+.ul-nav a :hover{background-color: #607788 ;}
+    
